@@ -6,11 +6,11 @@ function getIt () {
   })
 }
 
-/*function frameIt() {
+function frameIt() {
   $('img').on('load', function() {
-    return $('img').append(<'class = tasty'/>)
+    return $('img').append(<'.tasty'/>)
   })
-}*/
+}
 
 function pressIt() {
   $('input#typing').on('keydown', function (key) {
